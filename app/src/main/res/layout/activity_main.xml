@@ -20,6 +20,14 @@
         app:srcCompat="@drawable/image"
         tools:srcCompat="@drawable/image" />
 
+    <SlidingDrawer
+        android:layout_width="405dp"
+        android:layout_height="850dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></SlidingDrawer>
+
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="67dp"
@@ -34,6 +42,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="257dp"
         android:layout_height="414dp"
+        android:visibility="invisible"
         app:cardBackgroundColor="#DDDDDD"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,5 +53,17 @@
         app:layout_constraintVertical_bias="0.529">
 
     </androidx.cardview.widget.CardView>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:text="ToggleButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
