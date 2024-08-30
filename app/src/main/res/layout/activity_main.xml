@@ -20,13 +20,19 @@
         app:srcCompat="@drawable/image"
         tools:srcCompat="@drawable/image" />
 
-    <SlidingDrawer
-        android:layout_width="405dp"
-        android:layout_height="850dp"
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="69dp"
+        android:layout_height="63dp"
+        app:icon="@drawable/baseline_menu_48"
+        app:iconTint="#222836"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></SlidingDrawer>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -53,17 +59,5 @@
         app:layout_constraintVertical_bias="0.529">
 
     </androidx.cardview.widget.CardView>
-
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="78dp"
-        android:layout_height="60dp"
-        android:text="ToggleButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
